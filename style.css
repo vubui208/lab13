@@ -1,0 +1,28 @@
+html,
+body {
+  height: 100%;
+}
+img {
+  width: 640px;
+  height: 500px;
+}
+.fl {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+  align-content: end;
+}
+.fl a {
+  justify-self: end;
+  padding-right: 20px;
+}
+.wrapper {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: 5fr auto;
+  flex-direction: column;
+}
+footer {
+  flex: auto auto;
+  justify-content: flex-end;
+}
